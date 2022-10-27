@@ -1,0 +1,8 @@
+<accessibility-service
+    android:accessibilityEventTypes="typeWindowContentChanged|typeWindowStateChanged|typeWindowsChanged"
+    android:packageNames="com.nn.accelerator.community"
+    android:accessibilityFeedbackType="feedbackAllMask"
+    android:notificationTimeout="300"
+    android:canRetrieveWindowContent="true"
+    android:accessibilityFlags="flagDefault|flagIncludeNotImportantViews|flagReportViewIds|flagRetrieveInteractiveWindows|flagRequestEnhancedWebAccessibility"
+    xmlns:android="http://schemas.android.com/apk/res/android" />
